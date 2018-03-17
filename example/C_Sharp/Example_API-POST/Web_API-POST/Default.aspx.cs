@@ -1,4 +1,4 @@
-/// ---------------------------------------------------------------------------------
+/*/// ---------------------------------------------------------------------------------
 /// <copyright>Ipdea Land, S.L. / Teenvio</copyright>
 /// <author>Víctor J. Chamorro</author>
 ///
@@ -16,6 +16,7 @@
 /// You should have received a copy of the GNU LESSER General Public License
 /// along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /// ---------------------------------------------------------------------------------
+*/
 
 namespace Example_APIPOST{
 	using System;
@@ -33,12 +34,16 @@ namespace Example_APIPOST{
 
 		public void onLoad (object sender, EventArgs args){
 
-			//**************************************
-			//   Change this auth-data!
-			//**************************************
+            //**************************************
+            //   Change this auth-data!
+            //**************************************
 
-			// user.plan: two parts from teenvio login separated by .
-			api = new TeenvioAPI("user","plan","pass");
+            // user.plan: two parts from teenvio login separated by .
+            //ansiaviva
+            //angel.practicasangel
+            //api = new TeenvioAPI("user","plan","pass");
+
+            api = new TeenvioAPI("angel", "practicasangel", "ansiaviva");
 
 			//***************************************
 			//    Set the HTTP Method: GET or POST
